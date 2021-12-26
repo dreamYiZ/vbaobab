@@ -8,6 +8,7 @@ this is a test project for create a ui lib for Vue3.0
 npm i vbaobab
 
 
+import "vbaobab/dist/vbaobab.css"
 import vbaobab from 'vbaobab'
 app.use(vbaobab);
 
