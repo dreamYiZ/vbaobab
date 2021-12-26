@@ -1,24 +1,13 @@
 # vbaobab
 
-## Project setup
-```
-yarn install
-```
+## Intro
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+this is a test project for create a ui lib for Vue3.0
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## How to use
+npm i vbaobab
 
-### Lints and fixes files
-```
-yarn lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+import vbaobab from 'vbaobab'
+app.use(vbaobab);
+
