@@ -12,3 +12,8 @@ import "vbaobab/dist/vbaobab.css"
 import vbaobab from 'vbaobab'
 app.use(vbaobab);
 
+
+
+## example 
+
+https://github.com/dreamYiZ/v-baobab-test
