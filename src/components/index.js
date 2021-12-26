@@ -1,13 +1,21 @@
-import Vue from "vue";
-
 import VBaobabBanner from "./Banner.vue";
 
-const Components = {
-    VBaobabBanner,
+// export { VBaobabBanner };
+
+const VBaobaoComponents = {
+  VBaobabBanner,
 };
 
-Object.keys(Components).forEach((name) => {
-  Vue.keys(name, Components[name]);
-});
+console.log('VBaobaoComponents', VBaobaoComponents)
 
-export default Components;
+// plugins/i18n.js
+export default {
+  install: (app) => {
+    // app.
+    Object.keys(VBaobaoComponents).forEach((name) => {
+      console.log("add component", name);
+      app.component(name, VBaobaoComponents[name]);
+    });
+    // Plugin code goes here
+  },
+};

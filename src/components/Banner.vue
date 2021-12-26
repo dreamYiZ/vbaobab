@@ -1,5 +1,6 @@
 <template>
   <div class="banner" :style="bannerStyles" :class="`banner__${position}`">
+      sdfsdfds
     <slot></slot>
   </div>
 </template>

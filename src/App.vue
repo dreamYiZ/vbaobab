@@ -1,15 +1,21 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <VBaobabBanner />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 
+
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+  },
+  mounted (){
+    console.log('component', this.$options);
+    
   }
 }
 </script>
